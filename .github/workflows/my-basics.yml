@@ -6,7 +6,7 @@
 #
 # Made by Denis Astahov ADV-IT Copyleft (c) 2019
 #---------------------------------------------------------------------
-name: My-GitHubActions-Basics
+name: HubActions-Basics
 env:
   APPLICATION_NAME    : "MyFlask"
   DEPLOY_PACKAGE_NAME : "flask-deploy-ver-${{ github.sha }}"
