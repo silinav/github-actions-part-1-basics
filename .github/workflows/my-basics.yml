@@ -24,6 +24,11 @@ jobs:
     - name: Print Hello Message in Testing
       run : echo "Hello World from Testing job"
       
+    - name: Print global variables
+      run: |
+        echo "Application name: ${{ env.APPLICATION_NAME }}" 
+        echo "Deploy package: ${{ env.DEPLOY_PACKAGE_NAME }}"
+      
     - name: data and time
       run: date
     
